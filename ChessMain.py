@@ -41,6 +41,7 @@ def loadImages():
 # This will handle user input and updating the graphics.
 def main():
     p.init()
+    p.display.set_caption("Chess")
     screen = p.display.set_mode((WIDTH, HEIGHT))
     clock = p.time.Clock()
     screen.fill(p.Color("white"))
