@@ -155,7 +155,7 @@ def drawGrid(screen, gs, validMoves, sqSelected):
 # Draw the squares on the board.
 def drawBoard(screen):
     global colors
-    colors = [p.Color("white"), p.Color("gray")]
+    colors = [p.Color("white"), p.Color((118,150,86))]
     for row in range(DIMENSION):
         for column in range(DIMENSION):
             color = colors[((row + column) % 2)]
