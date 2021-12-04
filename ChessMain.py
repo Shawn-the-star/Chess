@@ -12,6 +12,10 @@ It will be responsible for handling user input and displaying the current Game o
 import pygame as p
 import ChessEngine, SmartMoveFinder
 
+###########################################
+# Global Variables
+###########################################
+
 WIDTH = HEIGHT = 512
 DIMENSION = 8 # dimensions of a chess board are 8x8
 SQ_SIZE = HEIGHT // DIMENSION
